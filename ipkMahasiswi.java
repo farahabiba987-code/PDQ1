@@ -1,10 +1,9 @@
-package raraa;
-
 import java.util.Scanner;
 
 public class ipkMahasiswi {
-    static  Scanner sc = new Scanner(System.in);
-    static void main(String[] args) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         String[] nama_matkul = {"Sistem Informasi Manajemen", "Basis Data", "Sistem Informasi Sumber Daya Manusia", "Pemasaran Digital", "Desain Antar Muka", "Pemrograman Dasar", "Praktek Pemograman Dasar", "Bahasa Indonesia", "Matematika Bisnis"};
         double[] nilai_sks = {2,3,2,2,3,3,3,2,3};
         double[] nilai_akhir = new double[nama_matkul.length];
@@ -62,6 +61,7 @@ public class ipkMahasiswi {
         else {
             System.out.println("Invalid IPS, Silahkan pergi ke AAK untuk info lebih lanjut.");
         
+        sc.close();
         }
     } 
 }
