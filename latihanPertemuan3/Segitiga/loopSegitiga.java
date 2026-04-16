@@ -1,9 +1,11 @@
 package latihanPertemuan3.Segitiga;
 
+import java.util.Scanner;
 public class loopSegitiga {
     public static void main(String[] args) {
-        for ( int i = 0; i < 10; i++) {// masuk ke baris
-            for (int j = 0; j < i; j++) {// ngisi kotak di baris tsb
+        Scanner sc = new Scanner(System.in);
+        for ( int i = 1; i <= 5; i++) {// masuk ke baris
+            for (int j = 1; j <= i; j++) {// ngisi kotak di baris tsb
                 System.out.print("*");
             }
             System.out.println();   

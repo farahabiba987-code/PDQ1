@@ -57,7 +57,7 @@ public class latihanPerulangan {
 
                     // pembayaran
                     System.out.print("Masukkan jumlah uang yang dibayarkan : ");
-                    bayar[0]  = sc.nextInt();
+                    bayar[] = sc.nextInt();
                     System.out.println("Thank you for shopping w us :D");
 
                     break;

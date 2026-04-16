@@ -1,0 +1,19 @@
+package latihanPertemuan3.Segitiga;
+
+import java.util.Scanner;
+public class loopsegitiga5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan jumlah baris segitiga: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <=n; i++) {
+            for (int j = 1; j <=n ; j++) {
+                System.out.print("*");
+              
+            }
+            System.out.println();
+        }
+    }
+}
+
