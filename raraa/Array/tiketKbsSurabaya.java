@@ -1,11 +1,8 @@
 package raraa.Array;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class latihanArray {
-    /**
-     * @param args
-     */
+public class tiketKbsSurabaya {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -35,8 +32,8 @@ public class latihanArray {
 
                     //deklarasi ulang arrray utk menambahkan elemen array
                     kategori = new String[jumlahKategori];
-                    harga = new int[jumlahKategori];
                     String [] namaKategori = {"Dewasa", "Remaja", "Anak-anak", "Lansia"};
+                    harga = new int[jumlahKategori];
 
                     //input data array >> loop (for
                     for(int i=0; i<kategori.length; i++){
