@@ -1,4 +1,4 @@
-package latihanPertemuan3;
+package replayaLife.For;
 
 public class totalPendapatan {
     public static void main(String[] args) {

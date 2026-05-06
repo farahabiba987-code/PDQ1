@@ -72,6 +72,7 @@ public class tiketKbsSurabaya {
                             // Menyimpan jumlah beli ke index yang sesuai
                             kategoriArr[pilihan - 1] += sc.nextInt();
                             System.out.println("Berhasil ditambahkan ke keranjang.");
+                            System.out.println("Subtotal : " + harga[pilihan - 1] * kategoriArr[pilihan - 1]);
                         } else {
                             System.out.println("Pilihan tidak valid!");
                         }

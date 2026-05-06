@@ -1,4 +1,4 @@
-package latihanPertemuan3.Segitiga;
+package replayaLife.Segitiga;
 
 import java.util.Scanner;
 public class loopSegitiga {

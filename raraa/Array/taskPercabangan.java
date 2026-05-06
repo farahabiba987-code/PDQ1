@@ -1,4 +1,4 @@
-package raraa;
+package raraa.Array;
 
 import java.util.Scanner;
 

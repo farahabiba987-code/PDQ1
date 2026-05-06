@@ -1,4 +1,4 @@
-package latihanPertemuan3.For;
+package replayaLife.For;
 
 public class forLoop {
     public static void main(String[] args) {

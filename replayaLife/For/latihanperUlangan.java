@@ -1,4 +1,4 @@
-package latihanPertemuan3.For;
+package replayaLife.For;
 
 import java.util.Scanner;
 public class latihanperUlangan {

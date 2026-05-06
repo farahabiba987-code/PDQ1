@@ -1,4 +1,4 @@
-package latihanPertemuan3.While;
+package replayaLife.While;
 
 import java.util.Scanner;
 
