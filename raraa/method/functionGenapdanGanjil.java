@@ -12,6 +12,7 @@ public class functionGenapdanGanjil {
     }
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
+        System.out.println("Masukkan bilangan:");
         int n = myObj.nextInt();
         boolean hasil = isGanjil(n);
         if (hasil) {
