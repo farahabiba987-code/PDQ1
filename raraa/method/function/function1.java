@@ -1,6 +1,8 @@
+package function;
 import java.util.Scanner;
 
 public class function1 {
+    
     static int tambah(int a, int b) {
         int hasil = a + b;
         return hasil; 

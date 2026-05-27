@@ -1,6 +1,8 @@
+package function;
 import java.util.Scanner;
 
 public class functionnilaiHuruf {
+    static int angka;
     static String nilaiHuruf() {
         String hasil = "";
         if (angka >= 80 && angka <= 100) {
