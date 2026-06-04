@@ -5,7 +5,7 @@ public class cetakTabelperkalian {
         cetakTabelPerkalian(3);
     }
 
-    public static void cetakTabelPerkalian(int angka) {
+    static void cetakTabelPerkalian(int angka) {
         for (int i = 1; i <= 10; i++) {
            System.out.println(angka + " x " + i + " = " + (angka * i));
         }
