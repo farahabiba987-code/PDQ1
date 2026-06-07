@@ -7,6 +7,8 @@ public class tampilanMhs {
         System.out.println("IPK: " + ipk);
     }
     public static void main(String[] args) {
+        double ipk = 2.00;
         tampilMhs("Kelvin Argantara", "26420100099", 4.00);
+        System.out.println(ipk);
     }
 }
